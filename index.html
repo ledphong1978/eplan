@@ -1,0 +1,140 @@
+<html>
+	<head>
+		<style>
+			table ,th,td{
+				border: 1px solid black;
+			}
+			.button1 {background-color: #0000ff;}
+			.button2 {background-color: #4CAF50;}
+		</style>
+	</head>
+	<body>
+		<h3>จำลอง e-plan</h3>
+		<h3>ระบบสารสนเทศเพื่อการวางแผนและประเมินผลขององอค์กรปกครองส่วนท้องถิ่น</h3>
+		<h3>เปลี่ยนแปลงแผนพัฒนาท้องถิ่น 5 ปี [ปีงบประมาณ 2566]</h3>
+		<select id="strategicId">
+		  <option value>-ทุกยุทธศาสตร์-</option>
+		  <option value="682643">ยุทธศาสตร์อนุรักษ์และส่งเสริม ประเพณี วัฒนธรรม และภูมิปัญญาท้องถิ่น</option>
+		  <option value="682642">ยุทธศาสตร์เสริมสร้างเศรษฐกิจฐานรากและการบริหารจัดการทรัพยากรธรมชาติและสิ่งแวดล้อม</option>
+		  <option value="682644" selected>ยุทธศาสตร์การบริหารกิจการบ้านเมืองที่ดี</option>
+		  <option value="682612" selected>ยุทธศาสตร์พัฒนาคนและสังคมที่มีคุณภาพ</option>
+		  <option value="682638" selected>ยุทธศาสตร์พัฒนาแหล่งน้ำและโครงสร้างพื้นฐาน</option>
+		</select>
+		<button class="button button1">ค้นหา</button>
+		<button class="button button2">เพิ่ม</button>
+		<br><br>
+
+		<table>
+		  <tr>
+			<th>ลำดับ</th>
+			<th>โครงการ</th>
+			<th>2566</th>
+			<th>2567</th>
+			<th>2568</th>
+			<th>2569</th>
+			<th>2570</th>
+			<th>เลือก</th>
+		  </tr>
+		  <tr>
+			<td>1.</td>
+			<td>โครงการฝึกอบรมทบทวนอาสาสมัครป้องกันภัยฝ่ายพลเรือน</td>
+			<td>80,000.00</td>
+			<td>80,000.00</td>
+			<td>80,000.00</td>
+			<td>80,000.00</td>
+			<td>80,000.00</td>
+			<td><input type="checkbox" name="select1"/></td>
+		  </tr>
+		  <tr>
+			<td>2.</td>
+			<td>ส่งเสริมและพัฒนาทักษะการเรียนรู้เด็กและเยาวชน</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td><input type="checkbox" name="select2"/></td>
+		  </tr>
+		  <tr>
+			<td>3.</td>
+			<td>สัตว์ปลอดโรค คนปลอดภัย</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td><input type="checkbox" name="select3"/></td>
+		  </tr>
+		  <tr>
+			<td>4.</td>
+			<td>อบรมช่างซ่อมเครื่องยนต์ทางการเกษตร</td>
+			<td>50,000.00</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td><input type="checkbox" name="select4"/></td>
+		  </tr>
+		  <tr>
+			<td>5.</td>
+			<td>ตรวจสอบคุณภาพน้ำ</td>
+			<td>15,000.00</td>
+			<td>15,000.00</td>
+			<td>15,000.00</td>
+			<td>15,000.00</td>
+			<td>15,000.00</td>
+			<td><input type="checkbox" name="select5"/></td>
+		  </tr>
+		  <tr>
+			<td>6.</td>
+			<td>ซ่อมแซมไฟฟ้าสาธารณะส่องทาง</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td>50,000.00</td>
+			<td><input type="checkbox" name="select6"/></td>
+		  </tr>
+		  <tr>
+			<td>7.</td>
+			<td>ปรับปรุง ขยาย ซ่อมแซมหรือ ต่อเติมระบบประปาหมู่บ้าน</td>
+			<td>2,000,000.00</td>
+			<td>2,000,000.00</td>
+			<td>2,000,000.00</td>
+			<td>2,000,000.00</td>
+			<td>2,000,000.00</td>
+			<td><input type="checkbox" name="select7"/></td>
+		  </tr>
+		  <tr>
+			<td>8.</td>
+			<td>ขยายไฟฟ้าแรงต่ำเพื่อการเกษตร</td>
+			<td>600,000.00</td>
+			<td>600,000.00</td>
+			<td>600,000.00</td>
+			<td>600,000.00</td>
+			<td>600,000.00</td>
+			<td><input type="checkbox" name="select8"/></td>
+		  </tr>
+		  <tr>
+			<td>9.</td>
+			<td>อบรมคุณธรรมจริยธรรม</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td><input type="checkbox" name="select9"/></td>
+		  </tr>
+		  <tr>
+			<td>10.</td>
+			<td>ส่งเสริมสนับสนุนระบบการขายผลิตภัณฑ์ชุมชนออนไลน์</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td>20,000.00</td>
+			<td><input type="checkbox" name="select10"/></td>
+		  </tr>
+		</table>
+	</body>
+</html>
